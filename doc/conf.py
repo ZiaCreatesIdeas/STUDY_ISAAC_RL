@@ -37,13 +37,13 @@ sys.path.insert(0, os.path.abspath('../source'))
 myst_heading_anchors = 4
 
 extensions = [
-              'sphinx.ext.autodoc',
-              'sphinx_copybutton',
-              'sphinx.ext.autosectionlabel',
-              'myst_parser',
-              'sphinx_design'
-              'sphinx-tabs'
-              ]
+    "sphinx.ext.autodoc",
+    "sphinx_copybutton",
+    "sphinx.ext.autosectionlabel",
+    "myst_parser",
+    "sphinx_design",
+    "sphinx_tabs.tabs",
+]
 
 myst_enable_extensions = [
    "colon_fence",
