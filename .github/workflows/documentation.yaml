@@ -15,6 +15,7 @@ jobs:
           pip install sphinx_copybutton
           pip install sphinx_design
           pip install sphinx-tabs
+          pip install sphinx-book-theme
       - name: Sphinx build
         run: |
           sphinx-build doc _build
